@@ -12,7 +12,7 @@ export const Bio = {
   description:"I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Sumit9623",
   email:"mailto:sumittupe9623@gmail.com",
-  resume:"",
+  resume:"https://drive.google.com/file/d/1lMhzcL6xhKmYwGNU3oXNU2FHnSF_RGHj/view",
   linkedin: "https://www.linkedin.com/in/sumit-tupe-8027a0241/",
   insta: "https://www.instagram.com/sumit_tupe_73/",
 };
@@ -36,12 +36,34 @@ export const skills = [
     ]
   },
   {
+    title: "Course work",
+    skills: [
+      {
+        name: "Object Oriented Programming",
+        // image:"https://raw.githubusercontent.com/isocpp/logos/64ef037049f87ac74875dbe72695e59118b52186/cpp_logo.svg"
+      },
+      {
+        name: "DSA",
+        // image:"https://camo.githubusercontent.com/651195b8c66a9dd22316e672992077dbcecea4ca904b45a6681558ebc0ecc517/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f332f33302f4a6176615f70726f6772616d6d696e675f6c616e67756167655f6c6f676f2e7376672f33303070782d4a6176615f70726f6772616d6d696e675f6c616e67756167655f6c6f676f2e7376672e706e67"
+      },
+      {
+        name: "Database Management System",
+        // image: "https://raw.githubusercontent.com/voodootikigod/logo.js/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg"
+      }
+    ]
+  },
+  {
     title: "Frontend",
     skills: [
       {
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Redux Toolkit",
+        image:
+        "https://e7.pngegg.com/pngimages/522/1018/png-clipart-purple-atom-redux-logo-icons-logos-emojis-tech-companies-thumbnail.png"
       },
 
       {
@@ -52,6 +74,11 @@ export const skills = [
         name: "CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "Tailwind CSS",
+        image:
+        "https://image.pngaaa.com/779/6447779-middle.png"
       },
       {
         name: "JavaScript",
@@ -120,7 +147,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    role: "Problem Setter",
+    role: "Problem Setter - (freelance)",
     company: "iMocha",
     date: "Nov 2022 - Jan 2023",
     desc: "I worked as problem setter at iMocha where i have created some DSA related coding quetions. These quetions are used by organizations for coding assesments while campus hiring etc",
@@ -161,12 +188,25 @@ export const education = [
 
 export const projects = [
   {
+    id: 10,
+    title: "FashCart",
+    date: "Feb 2023",
+    description:
+      "FashCart is full stack e-commerce website for a fashion. it has all nessesary functionality with great user experience.",
+    image: "/FashCart_Image.png",
+    tags: [
+      "HTML","CSS/Tailwind CSS","JavaScript","React/Redux Toolkit", "NodeJS","ExpressJS","MongoDB Atlas",
+    ],
+    liveLink:"https://fash-cart-git-master-sumits-projects-a215df66.vercel.app/",
+    githubLink:"https://github.com/Sumit9623/FashCart"
+  },
+  {
     id: 9,
     title: "CineVerse",
     date: "Jun 2022",
     description:
       "Cineverse is a web application provide overall discription about the movies that leverage the TMDB API which have comprehensive collection of Movies.",
-    image: "../../images/HeroImage.jpg",
+    image: "/CineVerse.png",
     tags: [
       "HTML","CSS","JavaScript","Responsive Design",
     ],

@@ -4,14 +4,12 @@ import _default from '../../themes/default';
 
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    max-width: 1500px;
+    margin:auto;
     position: sticky;
-    top: 0;
-    z-index: 10;
+    top: 0px;
+    z-index:10;
     @media (max-width: 960px) {
         trastion: 0.8s all ease;
     }
@@ -23,6 +21,8 @@ export const NavbarContainer = styled.div`
   height: 60px;
   z-index: 1;
   width: 100%;
+  max-width: 1500px;
+  margin:auto
   padding: 0 24px;
 `;
 

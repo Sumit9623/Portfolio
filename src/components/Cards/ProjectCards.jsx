@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Description = styled.div`
     width:100%
     font-weight: 400;
-    font-family:cursive;
+    font-family: 'Roboto Slab', serif;
     color: ${({ theme }) => theme.text_secondary + 99};
     font-size:15px;
     margin-left:6px
@@ -62,7 +62,7 @@ const Details = styled.div`
 const Title = styled.div`
     font-size: 20px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_secondary};
+    color: #F2F3F4;
     overflow: hidden;
     display: -webkit-box;
     max-width: 100%;
@@ -114,7 +114,7 @@ export const ProjectButton = styled.a`
 const ProjectCards = ({project}) => {
     return (
         <Card>
-            <img src={require('../../images/CineVerse.jpg')}/>
+           <img src={project.image}/>
             <Tags>
                 {project.tags?.map((tag) => (
                     <Tag>{tag}</Tag>

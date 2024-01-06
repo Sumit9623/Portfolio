@@ -49,7 +49,7 @@ const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    font-family:cursive;
+    font-family: 'Roboto Slab', serif;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         margin-top: 12px;
@@ -164,7 +164,6 @@ const Contact = () => {
       }, (error) => {
           fail();
       });
-
   }
   return (
     <Container>

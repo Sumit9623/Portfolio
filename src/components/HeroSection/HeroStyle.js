@@ -6,8 +6,6 @@ export const HeroContainer = styled.div`
   display: flex;
   position: relative;
   padding: 50px 30px;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
   gap:20px;
 
@@ -44,7 +42,9 @@ export const HeroBg = styled.div`
 export const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
+  margin-left:20px;
   @media (max-width: 960px) {
+    margin-left:0px;
     order: 2;
     margin-bottom: 30px;
     display: flex;
@@ -53,6 +53,7 @@ export const HeroLeftContainer = styled.div`
   }
 
   @media (max-width: 640px) {
+    margin-left:0px;
     order: 2;
     margin-bottom: 30px;
     display: flex;
@@ -135,7 +136,7 @@ export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
-  font-family:cursive;
+  font-family: 'Roboto Slab', serif;
   color: ${({ theme }) => theme.text_primary + 95};
 
   @media (max-width: 960px) {

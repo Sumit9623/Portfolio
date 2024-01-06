@@ -42,7 +42,7 @@ export const Desc = styled.div`
     text-align: center;
     max-width: 600px;
     margin : 0px 20px;
-    font-family:cursive;
+    font-family: 'Roboto Slab', serif;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         margin-top: 12px;

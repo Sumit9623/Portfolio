@@ -7,7 +7,7 @@ const Description = styled.div`
     width: 100%;
     font-size: 15px;
     font-weight: 400;
-    font-family:cursive;
+    font-family: 'Roboto Slab', serif;
     color: ${({ theme }) => theme.text_primary + 99};
     margin-bottom: 10px;
     @media only screen and (max-width: 768px){
@@ -18,7 +18,7 @@ const Description = styled.div`
 const Span = styled.span`
 overflow: hidden;
 display: -webkit-box;
-font-family:cursive;
+font-family: 'Roboto Slab', serif;
 max-width: 100%;
 -webkit-line-clamp: 4;
 -webkit-box-orient: vertical;
@@ -63,7 +63,7 @@ const Body = styled.div`
 const Role = styled.div`
     font-size: 18px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_primary + 99};
+    color: #F2F3F4;
     @media only screen and (max-width: 768px){
         font-size: 14px;
     }

@@ -15,8 +15,9 @@ import styled from "styled-components";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
-  width: 100%;
   overflow-x: hidden;
+  max-width: 1500px;
+  margin:auto
 `
 
 const Wrapper = styled.div`
@@ -28,7 +29,7 @@ function App() {
   // const [darkMode, setDarkMode] = useState(true);
 
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={darkTheme} >
       <Router >
         <Navbar />
         <Body>

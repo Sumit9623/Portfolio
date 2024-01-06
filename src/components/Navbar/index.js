@@ -10,8 +10,8 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+        <NavLogo to='/' style={{display:"flex","margin-left": "30px", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <a style={{alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
              <Span>Portfolio</Span>
           </a>
         </NavLogo>
