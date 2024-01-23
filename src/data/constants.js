@@ -193,7 +193,7 @@ export const projects = [
     tags: [
       "HTML","CSS/Tailwind CSS","JavaScript","React/Redux Toolkit", "NodeJS","ExpressJS","MongoDB Atlas",
     ],
-    liveLink:"https://fash-cart-git-master-sumits-projects-a215df66.vercel.app/",
+    liveLink:"https://fash-cart-832v6jjkc-sumits-projects-a215df66.vercel.app/",
     githubLink:"https://github.com/Sumit9623/FashCart"
   },
   {
